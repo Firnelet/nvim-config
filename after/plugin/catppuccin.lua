@@ -1,0 +1,14 @@
+require('catppuccin').setup({
+	flavour = "mocha",
+	background = {
+		light = "latte",
+		dark = "mocha"
+	},
+	transparent_background = true,
+	show_end_of_buffer = true,
+})
+
+vim.cmd.colorscheme "catppuccin"
+
+
+
