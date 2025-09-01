@@ -1,0 +1,7 @@
+{
+	"diagnostics.globals": ["vim"],
+	"workspace.checkThirdParty": false,
+	"workspace.library": [
+		"C:\\tools\\neovim\\nvim-win64"
+	]
+}
