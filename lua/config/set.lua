@@ -5,10 +5,14 @@ vim.o.smartindent = true
 
 vim.o.wrap = false
 
-local indent_size
+local indent_size = 3
 vim.o.tabstop = indent_size
 vim.o.softtabstop = indent_size
 vim.o.shiftwidth = indent_size
+
+if true == true then
+	print"hi"
+end
 
 vim.o.scrolloff = 8
 vim.o.signcolumn = 'yes'
