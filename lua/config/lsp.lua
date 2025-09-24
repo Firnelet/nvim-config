@@ -3,6 +3,7 @@ vim.lsp.enable({
 	'ts_ls',
 	'gopls',
 	'gdscript',
+	'cssls'
 })
 
 vim.api.nvim_create_autocmd('LspAttach', {
